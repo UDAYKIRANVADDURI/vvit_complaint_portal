@@ -1,0 +1,23 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <img src="vvitlogo.jpg" class="logo">
+    <a href="login_page.php">
+    <button class="login_btn">LOGIN</button><br><br><br>
+    </a>
+    <div class="content">
+        <h1>VVIT COMPLAINT PORTAL</h1>
+        <h3>This complaint portal is regarding the air conditioner repairs<br> that are occured in the girls hostel.<br>To avoid such problems, we introduced an online portal.</h3>
+        <h3 style="color: rgb(54, 26, 80);">For more details <a style="color: rgb(54, 26, 80);" href="https://vvitguntur.com/">click here</a></h3>
+    </div>
+</body>
+
+</html>

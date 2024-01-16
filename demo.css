@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body {
+    background: url("45.jpg") no-repeat center/cover;
+}
+
+.c1 {
+    background-color: rgb(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+    border-radius: 2%;
+}
+
+.floor_group {
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+    align-items: center;
+}
+
+.floors {
+    background-color: rgb(223, 77, 77);
+    color: whitesmoke;
+    width: 12%;
+    font-weight: bold;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 4px rgb(21, 21, 21, 0.35);
+}
+
+.room {
+    box-shadow: 3px 4px rgb(21, 21, 21, 0.35);
+    width: 8vw;
+    height: 8vh;
+    background-color: rgb(255, 255, 255, 0.85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: 2.5px solid green;
+    border-radius: 9.5%; 
+}
+
+.line {
+    display: flex;
+    justify-content: space-evenly;
+    height: 20%;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    height: 80vh;
+}
+
+.main_part1 {
+    width: 20vw;
+    align-items: center;
+}
+
+.main_part2 {
+    width: 78vw;
+}
+
+.displayNumber {
+    width: 70%;
+    height: 35%;
+    margin: auto;
+    margin-top: 5%;
+    background-color: #4E5F58;
+    color: white;
+    font-size: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colorbox {
+    width: 1.5vw;
+    height: 3vh;
+}
+
+.details {
+    margin: auto;
+    width: 70%;
+    margin-top: 10%;
+}
+
+.colordetail {
+    display: flex;
+    align-items: center;
+    justify-content: spac;
+    margin-top: 5%;
+}
+
+@media (max-width:991px) {
+    .displayNumber {
+        height: 15%;
+    }
+}
+
+@media (max-width:768px) {
+    .main_part1 {
+        display: none;
+    }
+    .main_part2 {
+        width: 100vw;
+    }
+    .room {
+        width: 16%;
+        height: 70%; 
+    }
+    .floors{
+        width:15%;
+        font-size: 70% ;
+    }
+}
+@media (max-width:450px){
+    .room { 
+        height: 50%; 
+    }
+}
+.line .popuptext {
+    display: none;
+    position: absolute;
+    width: auto;
+    background-color: #fff;
+    padding: .5em;
+    min-width: 10rem;
+    border: 2px solid black; 
+  }
+  .line .room:hover .popuptext {
+    display: block;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+  }
